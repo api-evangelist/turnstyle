@@ -1,7 +1,24 @@
 aid: turnstyle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turnstyle.png
 name: Turnstyle
-description: Turnstyle is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Turnstyle (Turnstyle Analytics) was a WiFi-marketing and customer-analytics platform for
+  brick-and-mortar businesses, capturing guest WiFi logins to build customer profiles, segments, and
+  automated re-marketing campaigns. It was a 500 Global portfolio company and was acquired by Yelp,
+  becoming Yelp WiFi. As of this enrichment pass the product no longer operates independently - its
+  domain getturnstyle.com now permanently redirects through app.yelpwifi.com to business.yelp.com (Yelp
+  for Business). No standalone Turnstyle developer portal, API, documentation, or SDKs are published;
+  there is no independent API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/turnstyle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,19 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: yelp
+x-redirects-to: https://business.yelp.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- WiFi Marketing
+- Customer Analytics
+- Location Marketing
+- Acquired
+- Yelp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://getturnstyle.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

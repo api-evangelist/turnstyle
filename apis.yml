@@ -57,6 +57,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/yelp/
+  name: Yelp
+  x-relationship: acquired
+  x-evidence: "It was a 500 Global portfolio company and was acquired by Yelp, becoming Yelp WiFi."
 - type: Website
   url: https://getturnstyle.com
 x-enrichment:

@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://getturnstyle.com', status: 301, note: 'declared website redirects to https://business.yelp.com/ — a different registrable domain (getturnstyle.com -> yelp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turnstyle.png
 name: Turnstyle
 description: Turnstyle (Turnstyle Analytics) was a WiFi-marketing and customer-analytics platform for
